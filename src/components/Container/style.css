@@ -1,0 +1,14 @@
+.container {
+  background-color: white;
+  margin: auto;
+  padding-left: 20px;
+  padding: 20px;
+  /* height: 100vh; Magic here */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
