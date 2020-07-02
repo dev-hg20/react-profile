@@ -16,8 +16,8 @@ function App() {
           <Route exact path="/" component={Profile} />
           <Route exact path="/portfolio" component={Portfolio} />
         </Wrapper>
+        <Footer></Footer>
       </Router>
-      <Footer></Footer>
     </div>
   );
 }

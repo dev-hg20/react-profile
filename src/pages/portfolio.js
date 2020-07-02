@@ -11,13 +11,10 @@ function Portfolio() {
   return (
     <Container>
       <Row>
-        <p>These are a few of my portfolios</p>
+        {portfolioJSON.map((portfolio, index) => {
+          return <PortfolioCards key={index} portfolio={portfolio} />;
+        })}
       </Row>
-      <br></br>
-
-      {portfolioJSON.map((portfolio, index) => {
-        return <PortfolioCards key={index} portfolio={portfolio} />;
-      })}
     </Container>
   );
 }

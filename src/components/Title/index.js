@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Title(props) {
   return <h2>{props.children}</h2>;
