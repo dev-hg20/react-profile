@@ -13,21 +13,11 @@ function Footer() {
     <footer>
       <Navbar>
         <Nav>
-          <Nav.Link>
-            <FontAwesomeIcon
-              icon={faLinkedin}
-              href="https://www.linkedin.com/in/haylie-goh-941bb896/"
-              color="white"
-              size="2x"
-            />
+          <Nav.Link href="https://www.linkedin.com/in/haylie-goh-941bb896/">
+            <FontAwesomeIcon icon={faLinkedin} color="white" size="2x" />
           </Nav.Link>
-          <Nav.Link>
-            <FontAwesomeIcon
-              icon={faGithub}
-              href="https://github.com/dev-hg20"
-              color="white"
-              size="2x"
-            />
+          <Nav.Link href="https://github.com/dev-hg20">
+            <FontAwesomeIcon icon={faGithub} color="white" size="2x" />
           </Nav.Link>
         </Nav>
       </Navbar>
