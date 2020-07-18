@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Password Generator",
+    "description": "This application generates a random password based on the user-selected criteria",
+    "github": "https://github.com/dev-hg20/js.password-generator"
+  },
+  {
+    "id": 2,
+    "name": "Workout Tracker",
+    "description": "This is an application that allows a user to track their fitness activities",
+    "github": "https://git.heroku.com/secure-plains-32563.git"
+  },
+  {
+    "id": 3,
+    "name": "Corona Diaries",
+    "description": "This application is a blogging platform where people come together to share stories and posts about the pandemic.",
+    "github": "https://lets-talk-corona.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "name": "Employee Directory",
+    "description": "This is an application highlights an employee directory with React",
+    "github": "https://nameless-brook-14223.herokuapp.com/"
+  }
+]
